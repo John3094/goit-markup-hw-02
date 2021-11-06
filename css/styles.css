@@ -1,0 +1,25 @@
+:root {
+    --main-tittle-color: #ffffff; 
+    --second-tittle-color: #212121;
+    --main-text-color: #757575;
+    --second-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --main-button-color: #ffffff;
+    --header-text-color: #212121;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/*Logo*/
+.logo {
+    font-family: "Raleway" sans-serif;
+}
