@@ -1,25 +1,100 @@
 :root {
-    --main-tittle-color: #ffffff; 
-    --second-tittle-color: #212121;
-    --main-text-color: #757575;
-    --second-text-color: #212121;
-    --accent-text-color: #2196F3;
-    --main-button-color: #ffffff;
-    --header-text-color: #212121;
+  --main-tittle-color: #ffffff;
+  --second-tittle-color: #212121;
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --main-button-color: #ffffff;
+  --header-text-color: #212121;
+  --connection-color: #757575;
+  --first-logo-color: #2196f3;
+  --second-logo-color: #000000;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
+
+/*---------------HEADER----------------*/
+
+.header {
+  background-color: #e5e5e5;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
+}
+
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--accent-text-color);
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--connection-color);
+}
+
 /*Logo*/
 .logo {
-    font-family: "Raleway" sans-serif;
+  font-family: Raleway sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-logo-color);
+}
+
+.first-logo {
+  color: var(--first-logo-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-text-color);
+}
+
+/*---------------HERO----------------*/
+
+.hero-background {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-button-color);
 }
