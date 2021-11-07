@@ -12,78 +12,79 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a class="link" href="">
-                <span>Web</span>Studio
+    <header class="header">
+        <nav class="header-navigation">
+            <a class="link logo" href="">
+                <span class="first-logo">Web</span>Studio
             </a>
             <ul class="list">
-                <li><a class="link" href="">Студия</a></li>
-                <li><a class="link" href="">Портфолио</a></li>
-                <li><a class="link" href="">Контакты</a></li>
+                <li class="header item"><a class="link header-link" href="">Студия</a></li>
+                <li class="header item"><a class="link header-link" href="./portfolio.html">Портфолио</a></li>
+                <li class="header item"><a class="link header-link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a> 
-        <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a> 
+        <a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
-    <main>
+    <main class="gallery">
         <div>
-            <button type="button">Все</button>
-            <button type="button">Веб-сайты</button>
-            <button type="button">Приложения</button>
-            <button type="button">Дизайн</button>
-            <button type="button">Маркетинг</button>
+            <button class="gallery-button gallery-btn" type="button">Все</button>
+            <button class="gallery-button gallery-btn" type="button">Веб-сайты</button>
+            <button class="gallery-button gallery-btn" type="button">Приложения</button>
+            <button class="gallery-button gallery-btn" type="button">Дизайн</button>
+            <button class="gallery-button gallery-btn" type="button">Маркетинг</button>
         </div>
-        <ul class="list">
-            <li>
+        <ul class="gallery-list list">
+            <li class="gallery-item">
                 <img
                     src="./images/portfolio1.jpg"
                     alt="робота1"
                     width="370"
                     height="294">
                 /> 
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
+                <h2 class="gallery-title">Технокряк</h2>
+                <p class="gallery-text">Веб-сайт</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <img 
                 src="./images/portfolio2.jpg"
                 alt="робота2"
                 width="370"
                 height="294"
                 />
-                <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                <p>Дизайн</p>
+                <h2 class="gallery-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                <p class="gallery-text">Дизайн</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <img 
                 src="./images/portfolio3.jpg" 
                 alt="робота3"
                 width="370"
                 height="294"
                 />
-                <h2>Ресторан <span lang="en">Seafood</span></h2>
-                <p>Приложение</p>
+                <h2 class="gallery-title">Ресторан <span lang="en">Seafood</span></h2>
+                <p class="gallery-text">Приложение</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <img 
                 src="./images/portfolio4.jpg" 
                 alt="робота4"
                 width="370"
                 height="294"
                 />
-                <h2>Проект <span lang="en">Prime</span></h2>
+                <h2 class="gallery-title">Проект <span lang="en">Prime</span></h2>
+                <p class="gallery-text">Маркетинг</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <img 
                 src="./images/portfolio5.jpg" 
                 alt="робота5"
                 width="370"
                 height="294"
                 />
-                <h2>Проект <span lang="en">Boxes</span></h2>
-                <p>Приложение</p>
-            </li>
+                <h2 class="gallery-title">Проект <span lang="en">Boxes</span></h2>
+                <p class="gallery-text">Приложение</p>
+            </li class="gallery-item">
             <li>
                 <img 
                 src="./images/portfolio6.jpg" 
@@ -91,9 +92,9 @@
                 width="370"
                 height="294"
                 />
-                <h2 lang="en">Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
-            </li>
+                <h2 class="gallery-title" lang="en">Inspiration has no Borders</h2>
+                <p class="gallery-text">Веб-сайт</p>
+            </li class="gallery-item">
             <li>
                 <img 
                 src="./images/portfolio7.jpg" 
@@ -101,9 +102,9 @@
                 width="370"
                 height="294"
                 />
-                <h2>Издание <span lang="en">Limited Edition</span></h2>
-                <p>Дизайн</p>
-            </li>
+                <h2 class="gallery-title">Издание <span lang="en">Limited Edition</span></h2>
+                <p class="gallery-text">Дизайн</p>
+            </li class="gallery-item">
             <li>
                 <img 
                 src="./images/portfolio8.jpg" 
@@ -111,40 +112,42 @@
                 width="370"
                 height="294"
                 />
-                <h2>Проект <span lang="en">< LAB</span></h2>
-                <p>Маркетинг</p>
+                <h2 class="gallery-title">Проект <span lang="en">< LAB</span></h2>
+                <p class="gallery-text">Маркетинг</p>
             </li>
-            <li>
+            <li class="gallery-item">
                 <img 
                 src="./images/portfolio9.jpg" 
                 alt="робота9"
                 width="370"
                 height="294"
                 />
-                <h2 lang="en">Growing Business</h2>
-                <p>Приложение</p>
+                <h2 class="gallery-title" lang="en">Growing Business</h2>
+                <p class="gallery-text">Приложение</p>
             </li>
         </ul>  
     </main>
-    <footer>
-        <a class="link" href="">
-            <span>Web</span>Studio
+    <footer class="footer">
+        <a class="link footer-logo" href="">
+            <span class="first-logo">Web</span><span class="">Studio</span>
         </a>
-        <address>
-            <ul class="list">
-                <li>
-                    <a class="link"
+        <address class="contact-address">
+            <ul class="contact-list list">
+                <li class="contact-item">
+                    <a 
+                        class="contact-link link"
                         href="https://goo.gl/maps/CBitLUG9dkGeT7Bq6"
                         target="_blank"
                         rel="noopener noreferrer"
                     >   г. Киев, пр-т Леси Украинки, 26
                     </a>
                 </li>
-                <li>
-                    <a class="link" href="mailto:info@example.com">info@example.com</a>
+                <li class="contact-item">
+                    <a 
+                    class="contact-online link" href="mailto:info@example.com">info@example.com</a>
                 </li>
-                <li>
-                    <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+                <li class="contact-item">
+                    <a class="contact-online link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
