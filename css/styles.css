@@ -47,7 +47,7 @@ body {
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
-  color: var(--accent-text-color);
+  color: var(--connection-color);
 }
 
 .header-tel {
@@ -58,9 +58,16 @@ body {
   color: var(--connection-color);
 }
 
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-text-color);
+}
+
 /*Logo*/
 .logo {
-  font-family: Raleway sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -94,6 +101,8 @@ body {
 }
 
 .hero-button {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -169,7 +178,7 @@ body {
 }
 
 .footer-logo {
-  font-family: Raleway sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -191,6 +200,13 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contact-online);
+}
+
+.contact-link:hover,
+.contact-link:focus,
+.contact-online:hover,
+.contact-online:focus {
+  color: var(--accent-text-color);
 }
 
 /*------------Gallery--------------*/
