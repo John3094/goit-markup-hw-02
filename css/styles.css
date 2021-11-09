@@ -218,6 +218,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-button-color);
+  font-family: inherit;
 }
 .gallery-btn:hover,
 .gallery-btn:focus {
